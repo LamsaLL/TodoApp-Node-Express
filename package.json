@@ -1,0 +1,17 @@
+{
+  "name": "todo_app",
+  "version": "1.0.0",
+  "description": "Todo api with express JS",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "npx nodemon --ignore src/db",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leo Amsallem",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
